@@ -9,7 +9,6 @@ namespace BNCSharp_Tests
 
         static void Main(string[] args)
         {
-
             Console.WriteLine("Enter 1) Simple Delegates  2) ");
             switch (Console.ReadKey().KeyChar)
             {
@@ -114,7 +113,7 @@ namespace BNCSharp_Tests
             myPrintMehod(input);
         }
 
-      
+
 
         #region Iterator
         public static void ProcessListItem(string item)
@@ -124,7 +123,7 @@ namespace BNCSharp_Tests
 
         public static void ProcessListItemAndAddInverse(string item)
         {
-            Console.WriteLine(item.ToUpper()+"-"+item.PadLeft(2));
+            Console.WriteLine(item.ToUpper() + "-" + item.PadLeft(2));
         }
         #endregion
 
@@ -184,7 +183,7 @@ namespace BNCSharp_Tests
     public class PersonDB
     {
         string[] listOfUsers = { "amir", "ali", "hasan" };
-       public delegate void DelDoOnList(string listItem);
+        public delegate void DelDoOnList(string listItem);
 
         public void Process(DelDoOnList delDoOnList)
         {
