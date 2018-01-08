@@ -9,7 +9,7 @@ namespace BNCSharp_Tests
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter 1) Simple Delegates  2) ");
+            Console.WriteLine("Enter 1)Simple Delegates  2) ");
             switch (Console.ReadKey().KeyChar)
             {
                 case '1':
