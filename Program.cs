@@ -1,15 +1,16 @@
-﻿using System;
+﻿using BNCSharp_Tests.Reflection;
+using System;
 using System.Windows.Forms;
 
 namespace BNCSharp_Tests
 {
     class Program
     {
-       
+
 
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Enter a key to go to each section: ");
             Console.WriteLine("1)Delegates 2)Events 3)... ");
 
@@ -23,6 +24,9 @@ namespace BNCSharp_Tests
                     new EventClass();
                     break;
 
+                case '3'://Test Reflection
+                    new TutPoint();
+                    break;
                 default:
                     break;
             }
@@ -31,12 +35,12 @@ namespace BNCSharp_Tests
 
         }
 
-    
 
 
-      
-      
+
+
+
     }
 
-  
+
 }
