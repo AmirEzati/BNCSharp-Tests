@@ -1,4 +1,5 @@
-﻿using BNCSharp_Tests.Generics;
+﻿using BNCSharp_Tests.ArrayList;
+using BNCSharp_Tests.Generics;
 using BNCSharp_Tests.Reflection;
 using System;
 using System.Windows.Forms;
@@ -31,6 +32,11 @@ namespace BNCSharp_Tests
                 case 'G'://Test Reflection
                     new MyGeneric();
                     break;
+
+                case 'A':
+                    new ArrayListClass();
+                    break;
+                    
                 default:
                     break;
             }

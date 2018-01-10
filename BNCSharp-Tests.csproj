@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayList\ArrayListClass.cs" />
     <Compile Include="Delegate\DelegateClass.cs" />
     <Compile Include="Enum\EnumClass.cs" />
     <Compile Include="Event\EventClass.cs" />
