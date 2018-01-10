@@ -45,7 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegate\DelegateClass.cs" />
+    <Compile Include="Enum\EnumClass.cs" />
     <Compile Include="Event\EventClass.cs" />
+    <Compile Include="Generics\MyGeneric.cs" />
     <Compile Include="Interface\IComparable.cs" />
     <Compile Include="Interface\IMyInterface.cs" />
     <Compile Include="Program.cs" />
