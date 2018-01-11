@@ -29,6 +29,16 @@ namespace BNCSharp_Tests
                 case '3'://Test Reflection
                     new TutPoint();
                     break;
+                case 'G'://Test Reflection
+                    new MyGeneric();
+                    break;
+
+                case 'A':
+                    new ArrayListClass();
+                    break;
+
+                default:
+                    break;
                 default:
                     break;
             }
