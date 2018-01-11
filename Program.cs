@@ -1,4 +1,6 @@
-﻿using BNCSharp_Tests.Reflection;
+﻿using BNCSharp_Tests.ArrayList;
+using BNCSharp_Tests.Generics;
+using BNCSharp_Tests.Reflection;
 using System;
 using System.Windows.Forms;
 
@@ -12,7 +14,7 @@ namespace BNCSharp_Tests
         {
 
             Console.WriteLine("Enter a key to go to each section: ");
-            Console.WriteLine("1)Delegates 2)Events 3)... ");
+            Console.WriteLine("1)Delegates 2)Events G)Generic ");
 
             switch (Console.ReadKey().KeyChar)
             {
@@ -26,11 +28,6 @@ namespace BNCSharp_Tests
 
                 case '3'://Test Reflection
                     new TutPoint();
-                    break;
-
-                case 'C'://Test Reflection
-                   var c= new Constructor.B();
-                    
                     break;
                 default:
                     break;
