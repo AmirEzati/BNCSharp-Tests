@@ -27,6 +27,11 @@ namespace BNCSharp_Tests
                 case '3'://Test Reflection
                     new TutPoint();
                     break;
+
+                case 'C'://Test Reflection
+                   var c= new Constructor.B();
+                    
+                    break;
                 default:
                     break;
             }

@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constructor\Class1.cs" />
     <Compile Include="Delegate\DelegateClass.cs" />
     <Compile Include="Event\EventClass.cs" />
     <Compile Include="Interface\IComparable.cs" />
