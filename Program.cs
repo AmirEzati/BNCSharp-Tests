@@ -1,4 +1,5 @@
 ﻿using BNCSharp_Tests.ArrayList;
+using BNCSharp_Tests.Async;
 using BNCSharp_Tests.Generics;
 using BNCSharp_Tests.Reflection;
 using System;
@@ -14,6 +15,7 @@ namespace BNCSharp_Tests
         {
 
             Console.WriteLine("Enter a key to go to each section: ");
+
             Console.WriteLine("1)Delegates 2)Events G)Generic ");
 
             switch (Console.ReadKey().KeyChar)
@@ -36,7 +38,10 @@ namespace BNCSharp_Tests
                 case 'A':
                     new ArrayListClass();
                     break;
-                    
+
+                case 'S':
+                    var s= AsyncClass.GetPageLength();
+                    break;
                 default:
                     break;
             }

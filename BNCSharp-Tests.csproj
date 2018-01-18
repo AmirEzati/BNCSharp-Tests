@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayList\ArrayListClass.cs" />
+    <Compile Include="Async\AsyncClass.cs" />
     <Compile Include="Delegate\DelegateClass.cs" />
     <Compile Include="Enum\EnumClass.cs" />
     <Compile Include="Event\EventClass.cs" />

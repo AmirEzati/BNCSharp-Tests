@@ -24,7 +24,7 @@ namespace BNCSharp_Tests.Generics
                 case 'M':
                     MultiTypeGenericMethod();
                     break;
-                case 'D':
+                case 'D': 
                     DefaultValueForGenericMethod();
                     break;
                 default:
