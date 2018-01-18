@@ -1,5 +1,4 @@
 ﻿using BNCSharp_Tests.ArrayList;
-using BNCSharp_Tests.Async;
 using BNCSharp_Tests.Generics;
 using BNCSharp_Tests.Reflection;
 using System;
@@ -20,6 +19,11 @@ namespace BNCSharp_Tests
 
             switch (Console.ReadKey().KeyChar)
             {
+
+                case 'd':
+                     DOM.Test1.TestProgram.MainMethod();
+                    break;
+
                 case '1':
                     new DelegateClass();
                     break;
@@ -41,18 +45,12 @@ namespace BNCSharp_Tests
                     
                 default:
                     break;
-                default:
-                    break;
+               
             }
 
             Console.ReadKey();
 
         }
-
-
-
-
-
 
     }
 
