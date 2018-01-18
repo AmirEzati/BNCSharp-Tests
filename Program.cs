@@ -38,9 +38,8 @@ namespace BNCSharp_Tests
                 case 'A':
                     new ArrayListClass();
                     break;
-
-                case 'S':
-                    var s= AsyncClass.GetPageLength();
+                    
+                default:
                     break;
                 default:
                     break;
